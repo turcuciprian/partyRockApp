@@ -17,8 +17,14 @@ class mainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        tableview.delegate = self
+        tableview.dataSource = self
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "videoVCIden") as? partyCellTableViewCell{
+            let partyRock = partyRocks[indexPath.row]
+            cell.updateUI(partyRock: partyRock)
+        }
         return UITableViewCell()
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
