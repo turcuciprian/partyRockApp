@@ -133,12 +133,26 @@
                     <view key="view" contentMode="scaleToFill" id="IwI-Rx-t1o">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rst-vr-H8n">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="227"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="227" id="udF-nW-hq8"/>
+                                </constraints>
+                            </webView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Rst-vr-H8n" secondAttribute="trailing" id="VNu-ap-ngv"/>
+                            <constraint firstItem="Rst-vr-H8n" firstAttribute="top" secondItem="IwI-Rx-t1o" secondAttribute="top" id="fON-7K-rux"/>
+                            <constraint firstItem="Rst-vr-H8n" firstAttribute="leading" secondItem="IwI-Rx-t1o" secondAttribute="leading" id="mLd-oN-Rkl"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dvP-1E-RW5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="865" y="38"/>
+            <point key="canvasLocation" x="863.768115942029" y="37.5"/>
         </scene>
     </scenes>
     <resources>
