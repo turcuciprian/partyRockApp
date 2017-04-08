@@ -28,10 +28,48 @@
                                     <constraint firstAttribute="height" constant="128" id="F9a-Lf-OjQ"/>
                                 </constraints>
                             </imageView>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VAl-cj-QrG">
+                                <rect key="frame" x="0.0" y="141" width="375" height="51"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="vMW-Oh-XiS" userLabel="menu buttons SV">
+                                        <rect key="frame" x="0.0" y="10" width="375" height="36"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u3B-Ox-cfo">
+                                                <rect key="frame" x="0.0" y="0.0" width="125" height="36"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
+                                                <state key="normal" title="Top Videos">
+                                                    <color key="titleColor" red="1" green="0.32456202943806955" blue="0.85667027168476273" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bqA-T2-gfk">
+                                                <rect key="frame" x="125" y="0.0" width="125" height="36"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
+                                                <state key="normal" title="Top Song">
+                                                    <color key="titleColor" red="0.61731787764075008" green="0.58806954113481835" blue="0.61956694162436543" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vPk-eb-AGO">
+                                                <rect key="frame" x="250" y="0.0" width="125" height="36"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
+                                                <state key="normal" title="Events">
+                                                    <color key="titleColor" red="0.61731787764075008" green="0.58806954113481835" blue="0.61956694162436543" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.95205425126903553" green="0.95205425126903553" blue="0.95205425126903553" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="vMW-Oh-XiS" firstAttribute="leading" secondItem="VAl-cj-QrG" secondAttribute="leading" id="I1z-Z8-niq"/>
+                                    <constraint firstAttribute="trailing" secondItem="vMW-Oh-XiS" secondAttribute="trailing" id="PvG-Ej-7sm"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="QOg-6N-VEa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="1IX-9T-ePi"/>
+                            <constraint firstAttribute="trailing" secondItem="VAl-cj-QrG" secondAttribute="trailing" id="98t-Ok-jjR"/>
+                            <constraint firstItem="VAl-cj-QrG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="B0r-WF-qd3"/>
                             <constraint firstAttribute="trailing" secondItem="QOg-6N-VEa" secondAttribute="trailing" constant="20" id="cgN-10-kAa"/>
                             <constraint firstItem="QOg-6N-VEa" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" id="nRb-Ey-j1v"/>
                         </constraints>
