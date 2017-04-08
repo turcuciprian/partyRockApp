@@ -10,7 +10,7 @@ import UIKit
 
 class mainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    @IBOutlet weak var tableview: UITableView!
+    @IBOutlet weak var tableView: UITableView!
     
     var partyRocks = [partyRock]()
 
@@ -18,10 +18,11 @@ class mainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         let p1 = partyRock(imageURL: "https://parade.com/wp-content/uploads/2014/01/1-12-14-Neil-deGrasse-Tyson-inside-main-ftr.jpg", videoURL: "https://www.youtube.com/embed/n5uGrJvMieo", videoTitle: "Neil")
+        partyRocks.append(p1)
         
 //        let urlTest = "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/n5uGrJvMieo\" frameborder=\"0\" allowfullscreen></iframe>"
-        tableview.delegate = self
-        tableview.dataSource = self
+        tableView.delegate = self
+        tableView.dataSource = self
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if let cell = tableView.dequeueReusableCell(withIdentifier: "videoVCIden") as? partyCellTableViewCell{
