@@ -31,9 +31,10 @@ class mainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        if let cell = tableView.dequeueReusableCell(withIdentifier: "partyCell_ID") as? partyCellTableViewCell{
-            let partyRock = partyRocks[indexPath.row]
-            cell.updateUI(partyRock: partyRock)
+        
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "partyCell_ID",for: indexPath) as? partyCellTableViewCell{
+            let partyRockObj = partyRocks[indexPath.row]
+            cell.updateUI(partyRock: partyRockObj)
             return cell
         }else{
             return UITableViewCell()
