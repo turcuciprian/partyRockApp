@@ -142,7 +142,7 @@
                                 </constraints>
                             </webView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.94919515896569651" green="0.94919515896569651" blue="0.94919515896569651" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="Rst-vr-H8n" secondAttribute="trailing" id="VNu-ap-ngv"/>
                             <constraint firstItem="Rst-vr-H8n" firstAttribute="top" secondItem="IwI-Rx-t1o" secondAttribute="top" id="fON-7K-rux"/>
