@@ -82,7 +82,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="One way street" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EJQ-4E-p8s">
-                                                    <rect key="frame" x="90" y="36.333333333333329" width="311" height="34.999999999999986"/>
+                                                    <rect key="frame" x="90" y="37" width="311" height="35"/>
                                                     <fontDescription key="fontDescription" name="StillTime-Regular" family="Still Time" pointSize="29"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
