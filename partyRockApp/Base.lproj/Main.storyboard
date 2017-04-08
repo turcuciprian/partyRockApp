@@ -82,7 +82,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="One way street" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EJQ-4E-p8s">
-                                                    <rect key="frame" x="90" y="36" width="311" height="35"/>
+                                                    <rect key="frame" x="90" y="36.333333333333329" width="311" height="34.999999999999986"/>
                                                     <fontDescription key="fontDescription" name="StillTime-Regular" family="Still Time" pointSize="29"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -119,10 +119,10 @@
             </objects>
             <point key="canvasLocation" x="31.884057971014496" y="37.5"/>
         </scene>
-        <!--View Controller-->
+        <!--VideoVC-->
         <scene sceneID="B1k-SC-ITu">
             <objects>
-                <viewController id="VJI-ZO-DzZ" sceneMemberID="viewController">
+                <viewController id="VJI-ZO-DzZ" customClass="VideoVC" customModule="partyRockApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wbB-3H-ktt"/>
                         <viewControllerLayoutGuide type="bottom" id="Nvr-7F-FPX"/>
