@@ -18,6 +18,9 @@ class partyCellTableViewCell: UITableViewCell {
         super.awakeFromNib()
         // Initialization code
     }
+    func updateUI(partyRock: partyRock) {
+        videoTitle.text = partyRock.videoTitle
+    }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)

@@ -18,6 +18,7 @@ class partyRock{
     var videoURL: String{
         return _videoURL
     }
+    
     var videoTitle:String{
         return _videoTitle
     }
