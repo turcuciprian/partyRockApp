@@ -67,7 +67,7 @@
                                 <rect key="frame" x="0.0" y="188" width="414" height="548"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="107" id="1Ku-kE-JVA">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="107" id="1Ku-kE-JVA" customClass="partyCellTableViewCell" customModule="partyRockApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="107"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1Ku-kE-JVA" id="ije-zB-RDs">
@@ -82,7 +82,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="One way street" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EJQ-4E-p8s">
-                                                    <rect key="frame" x="90" y="37" width="311" height="35"/>
+                                                    <rect key="frame" x="90" y="36.333333333333329" width="311" height="34.999999999999986"/>
                                                     <fontDescription key="fontDescription" name="StillTime-Regular" family="Still Time" pointSize="29"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -96,6 +96,10 @@
                                                 <constraint firstItem="EJQ-4E-p8s" firstAttribute="centerY" secondItem="ije-zB-RDs" secondAttribute="centerY" id="mzL-gT-FH6"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="videoPreviewImage" destination="iRr-YQ-dv2" id="dZ3-AM-o2J"/>
+                                            <outlet property="videoTitle" destination="EJQ-4E-p8s" id="QSY-Qx-txQ"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
