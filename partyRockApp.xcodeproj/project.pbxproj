@@ -13,6 +13,7 @@
 		7D1C11531E98E222004C5F87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D1C11521E98E222004C5F87 /* Assets.xcassets */; };
 		7D1C11561E98E222004C5F87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D1C11541E98E222004C5F87 /* LaunchScreen.storyboard */; };
 		7D1C11621E99078E004C5F87 /* still time.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D1C11611E99078E004C5F87 /* still time.ttf */; };
+		7D1C11641E9908FE004C5F87 /* VideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1C11631E9908FE004C5F87 /* VideoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7D1C11551E98E222004C5F87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D1C11571E98E222004C5F87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D1C11611E99078E004C5F87 /* still time.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "still time.ttf"; sourceTree = "<group>"; };
+		7D1C11631E9908FE004C5F87 /* VideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				7D1C114D1E98E222004C5F87 /* mainVC.swift */,
+				7D1C11631E9908FE004C5F87 /* VideoVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D1C11641E9908FE004C5F87 /* VideoVC.swift in Sources */,
 				7D1C114E1E98E222004C5F87 /* mainVC.swift in Sources */,
 				7D1C114C1E98E222004C5F87 /* AppDelegate.swift in Sources */,
 			);
